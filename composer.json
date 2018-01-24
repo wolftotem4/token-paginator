@@ -1,0 +1,20 @@
+{
+    "name": "wolftotem4/token-paginator",
+    "license": "MIT",
+    "require": {
+        "illuminate/support": "~5",
+        "illuminate/pagination": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "WF4\\TokenPaginator\\": "src/WF4/TokenPaginator/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WF4\\TokenPaginator\\TokenPaginatorServiceProvider"
+            ]
+        }
+    }
+}
